@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="99aed205745242a8b2b76c0a09b8a069" Name="Diagram1">
+        <EntityTypeShape EntityType="AutoGalleryModel.Car" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Customer" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Department" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Personel" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Sale" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.User" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Car_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Sale_Car" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Sale_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Personel_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Sale_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Sale_Personel" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
